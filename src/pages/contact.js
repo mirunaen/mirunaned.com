@@ -15,7 +15,6 @@ export default function Contact() {
           href="https://github.com/mirunaen"
           color="#406FC9"
           aria-label="github"
-          className="sc-bdVaJa fgQmzz"
         >
           <svg
             fillRule="evenodd"
@@ -41,7 +40,6 @@ export default function Contact() {
           href="https://twitter.com/Miruna85740032"
           color="#406FC9"
           aria-label="twitter"
-          className="sc-bdVaJa fgQmzz"
         >
           <svg
             fillRule="evenodd"
@@ -67,7 +65,7 @@ export default function Contact() {
           href="https://instagram.com/mirunaen"
           color="#406FC9"
           aria-label="instagram"
-          className="sc-bdVaJa fgQmzz"
+          style={{ textDecoration: "none" }}
         >
           <svg
             fillRule="evenodd"
@@ -98,7 +96,6 @@ export default function Contact() {
           href="mailto:miruna.neds@gmail.com"
           color="#406FC9"
           aria-label="email"
-          className="sc-bdVaJa fgQmzz"
         >
           <svg
             fillRule="evenodd"
@@ -120,7 +117,7 @@ export default function Contact() {
         </a>
       </div>
       <br></br>
-      <p>Send us a message!</p>
+      <p>Send me a message!</p>
     </div>
   )
 }

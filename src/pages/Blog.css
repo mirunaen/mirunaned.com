@@ -7,6 +7,10 @@
   margin: 0px;
 }
 
+html {
+  text-decoration: none;
+}
+
 body {
   text-decoration: none;
 }
@@ -20,6 +24,7 @@ body {
   padding: 10px;
   margin-top: 150px;
 }
+
 svg {
   fill-rule: evenodd;
   clip-rule: evenodd;
@@ -42,8 +47,14 @@ svg {
   margin: 0px 16px 0px 0px;
 }
 
-a:-webkit-any-link {
-  color: -webkit-link;
-  cursor: pointer;
+a:hover,
+a:visited,
+a:link,
+a:active {
   text-decoration: none;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: hotpink;
+  -webkit-appearance: none;
 }
