@@ -13,5 +13,4 @@ Oh, and here's a great quote from the Internet on
 
 > “Life is either a daring adventure or nothing at all.” -Helen Keller
 
-
-![Chinese Salty Egg](./lifequote.jpg)
+![life Quote](./lifequote.jpg)
