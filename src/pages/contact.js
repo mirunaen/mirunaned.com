@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
 import "./Blog.css"
+import "../styles/Global.css"
 
 export default function Contact() {
   return (
