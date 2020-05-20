@@ -1,20 +1,17 @@
 ---
-title: New Beginnings
+title: My Beginnings
 date: "2015-05-28T22:40:32.169Z"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+Programming is a superpower, and I’m greatly thankful for having discovered that fact early on in my life. I’m a student at IES Estados Del Duque with a deep passion for computer science and creating change. My goals are to create positively impactful software and to constantly develop the skills necessary to do so.
+During my junior year of high school, I attended my first hackathon, which was when I decided this is what I want to do.
+I`m currently co-founder of Malagon Hack Club, where together with an international non-profit organization we created a community of hackers, makers and creators in my town.
 
-## On deer horse aboard tritely yikes and much
+## Co-founder of Hack Club Malagón
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+Malagón Hack Club is the IES Estados del Duque High School’s Hack Club (hackclub.com) , where students learn to code by making fun projects. Meetings run for an hour and a half after school on Fridays and are structured like mini-hackathons, with free food, free stuff, swag and fun at every meeting.
+Hacking is our passion.
 
 - This however showed weasel
 - Well uncritical so misled
@@ -27,22 +24,9 @@ view back on the skyline of her hometown _Bookmarksgrove_, the headline of
 Lane. Pityful a rhetoric question ran over her cheek, then she continued her
 way. On her way she met a copy.
 
-### Overlaid the jeepers uselessly much excluding
+### My experience on Private teaching
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
-
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
-
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
+I guided high school students in one-on-one sessions covering topics like Physics, Maths, and English for two years.
 
 ### According a funnily until pre-set or arrogant well cheerful
 
