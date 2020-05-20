@@ -6,7 +6,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-
+import Header from "../components/header"
 type Data = {
   site: {
     siteMetadata: {
@@ -37,6 +37,12 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
+      <div style={{ color: `teal` }}>
+        <div style={{ color: `purple`, textAlign: `center` }}>
+          <Link to="/contact/">Contact</Link>
+          <Header headerText="Hello Gatsby!" />
+        </div>
+      </div>
       <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
