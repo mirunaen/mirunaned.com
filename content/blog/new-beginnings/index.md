@@ -10,19 +10,13 @@ I`m currently co-founder of Malagon Hack Club, where together with an internatio
 
 ## Co-founder of Hack Club Malagón
 
-Malagón Hack Club is the IES Estados del Duque High School’s Hack Club (hackclub.com) , where students learn to code by making fun projects. Meetings run for an hour and a half after school on Fridays and are structured like mini-hackathons, with free food, free stuff, swag and fun at every meeting.
-Hacking is our passion.
+Malagón Hack Club is the IES Estados del Duque High School’s Hack Club, where students learn to code by making fun projects. Meetings run for an hour and a half after school on Fridays and are structured like mini-hackathons, with free food, free stuff, swag and fun at every meeting.
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
+It is currently the only high school hack club in all **Spain**. I am one of the co-founders of it for Fall 2019 and Spring 2020 Seasons. My responsibility involves all kinds of marketing affair and running social media, which is crucial for the expansion and growth of the organization.
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+Due to the efforts, our club has grown incredibly the past few moths,we participated in two competitions and had our teachers involved as well in the hack club workshops.
+
+We are a non-profit organization by students, for students. We are all about bringing together passionate students to engage in collaborative coding and build projects that solve real problems. Our goal is to build a hacker community network here on Spain, with an emphasis placed on innovation and entrepreneurship.
 
 ### My experience on Private teaching
 
