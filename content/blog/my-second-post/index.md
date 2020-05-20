@@ -18,6 +18,3 @@ Wow! I love blogging so much already.
                        others about computer science.
                          I also love meeting new people :)
 
-([Wikipedia Link](https://en.wikipedia.org/wiki/Salted_duck_egg))
-
-Yeah, I didn't either.
