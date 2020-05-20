@@ -16,3 +16,15 @@ svg {
   width: 48;
   height: 48;
 }
+
+.svg {
+  box-sizing: border-box;
+  color: rgb(64, 111, 201);
+  margin: 0px 16px 0px 0px;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}

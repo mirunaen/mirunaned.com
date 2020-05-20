@@ -39,7 +39,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
       <SEO title="All posts" />
       <div style={{ color: `teal` }}>
         <div style={{ color: `purple`, textAlign: `center` }}>
-          <Link to="/contact/">Contact</Link>
+          <Link to="/contact/">¡Let´s get in touch!</Link>
           <Header headerText="Hello Gatsby!" />
         </div>
       </div>
