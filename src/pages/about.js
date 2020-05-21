@@ -18,7 +18,7 @@ export default function About() {
         <p className="text-center black opacity-50 fw-600 my-10">
           by Miruna Nedelcu.
         </p>
-        <div className="text-center">
+        <div className="text-center ">
           <div className="">
             <a
               href="#introduction"
