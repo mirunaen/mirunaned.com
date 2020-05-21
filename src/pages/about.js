@@ -1,6 +1,7 @@
 import React from "react"
 //import Header from "../components/header"
 import { Link } from "gatsby"
+import Image from "gatsby-image"
 
 export default function About() {
   return (
@@ -18,8 +19,6 @@ export default function About() {
           by Miruna Nedelcu👋.
         </p>
         <Image
-          fixed={data.avatar.childImageSharp.fixed}
-          alt={author.name}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -27,7 +26,7 @@ export default function About() {
             borderRadius: `100%`,
           }}
           imgStyle={{
-            borderRadius: `50%`,
+            borderRadius: `70%`,
           }}
         />
         <div className="text-center ">
