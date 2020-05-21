@@ -15,7 +15,7 @@ export default function About() {
           My beautiful Journey <br />
         </h1>
         <p className="text-center black opacity-50 fw-600 my-10">
-          by Miruna Nedelcu.
+          by Miruna Nedelcu👋.
         </p>
         <Image
           fixed={data.avatar.childImageSharp.fixed}
