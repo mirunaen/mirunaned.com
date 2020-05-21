@@ -35,42 +35,51 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <div style={{ color: `teal` }}>
-        <div style={{ color: `purple`, textAlign: `center` }}>
-          <Link to="/contact/">Contact</Link>
-          <Header headerText="¡Hakuna matata!" />
-        </div>
+    <section
+      id="hero"
+      className="h-100vh pattern-vertical-lines-md yellow-light bg-yellow flex justify-center items-center bg-fixed"
+      //tabindex="-1"
+      style={{ outline: `center` }}
+    >
+      <div className="pattern-checks-sm bg-primary text-white">
+        <Layout location={location} title={siteTitle}>
+          <SEO title="All posts" />
+          <div style={{ color: `teal` }}>
+            <div style={{ color: `purple`, textAlign: `center` }}>
+              <Link to="/contact/">Contact</Link>
+              <Header headerText="" />
+            </div>
+          </div>
+          <Bio />
+          {posts.map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            return (
+              <article key={node.fields.slug}>
+                <header>
+                  <h3
+                    style={{
+                      marginBottom: rhythm(1 / 4),
+                    }}
+                  >
+                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h3>
+                  <small>{node.frontmatter.date}</small>
+                </header>
+                <section>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </section>
+              </article>
+            )
+          })}
+        </Layout>
       </div>
-      <Bio />
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
-          <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
-          </article>
-        )
-      })}
-    </Layout>
+    </section>
   )
 }
 
