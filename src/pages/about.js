@@ -17,6 +17,19 @@ export default function About() {
         <p className="text-center black opacity-50 fw-600 my-10">
           by Miruna Nedelcu.
         </p>
+        <Image
+          fixed={data.avatar.childImageSharp.fixed}
+          alt={author.name}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            minWidth: 50,
+            borderRadius: `100%`,
+          }}
+          imgStyle={{
+            borderRadius: `50%`,
+          }}
+        />
         <div className="text-center ">
           <div className="">
             <a
