@@ -1,5 +1,7 @@
 import React from "react"
 import Header from "../components/header"
+@import "custom";
+@import "~shorthandcss/scss/shorthand.scss";
 
 export default function About() {
   return (
