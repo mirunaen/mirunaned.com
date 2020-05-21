@@ -1,7 +1,7 @@
 import React from "react"
-import Header from "../components/header"
-@import "custom";
-@import "~shorthandcss/scss/shorthand.scss";
+//import Header from "../components/header"
+import { Link } from "gatsby"
+import Layout from "../components/layout"
 
 export default function About() {
   return (
@@ -16,7 +16,7 @@ export default function About() {
           My beautiful Journey <br />
         </h1>
         <p className="text-center black opacity-50 fw-600 my-10">
-          by using these simple pattern
+          by Miruna Nedelcu.
         </p>
         <div className="text-center">
           <div className="">
@@ -24,7 +24,7 @@ export default function About() {
               href="#introduction"
               class="button-lg no-underline br-0 bg-black white fs-s3 ls-wider uppercase hover-opacity-100 focus-white hover-scale-up-1 ease-500"
             >
-              <span>Learn More</span>
+              <Link to="/">Home</Link>
             </a>
           </div>
         </div>
