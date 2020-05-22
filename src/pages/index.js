@@ -4,8 +4,11 @@ import Image from "gatsby-image"
 
 export default function Contact() {
   var sal = require("sal.js")
+  const scrollAnimations = sal()
+
+  scrollAnimations.disable()
   return (
-    <h1 class="header--text">
+    <h1 data-sal="fade">
       A place for{" "}
       <span id="typed" class="typed">
         mu
@@ -13,4 +16,5 @@ export default function Contact() {
       <span class="typed-cursor">|</span>
     </h1>
   )
+  sal()
 }
