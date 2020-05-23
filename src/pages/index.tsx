@@ -40,7 +40,6 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
       <div style={{ color: `teal` }}>
         <div style={{ color: `purple`, textAlign: `center` }}>
           <Link to="/contact/">Contact</Link>
-          <Header headerText="" />
         </div>
       </div>
       <Bio />
